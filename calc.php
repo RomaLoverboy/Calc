@@ -91,8 +91,8 @@
 <tr>
 <td><label class = "text">Пополнение вклада</label></td>
 <td>
-<input type = "radio" name = "calc" value = "Да" checked />  Да 
-<input type = "radio" name = "calc" value = "Нет"  /> Нет 
+<input type = "radio" name = "calc" value = "Да"  />  Да 
+<input type = "radio" name = "calc" value = "Нет"  checked /> Нет 
 </td>
 <td></td>
 </tr>

@@ -1,0 +1,133 @@
+/*Фон слайдера*/
+
+#table{
+	background-color: rgb(225,225,223);
+	border-radius: 4px;
+}
+
+#submit{
+	margin-left: 18px;
+	border-radius: 11px;
+	height: 33px;
+	width: 100px;
+	background-color: rgb(139, 252, 37);
+}
+#slider {
+width:450px;
+height:10px;
+background-color: rgb(34, 133, 16);
+position:relative;
+margin:0;
+padding: 1px;
+border-radius: 15px;
+}
+
+#slid {
+width:450px;
+height:10px;
+background-color: rgb(34, 133, 16);
+position:relative;
+margin:0;
+padding: 1px;
+border-radius: 15px;
+}
+.li {
+font-family: Trajan Pro, Times New Roman;
+color: #ffffff;
+font-variant: small-caps;
+font-size:16px;
+padding-left:7px;
+word-spacing: 1px;
+}
+/*Стиль кнопки слайдера*/
+.ui-slider .ui-slider-handle  {
+width:9px;
+height:9px;
+position:absolute;
+top:-1px;
+padding-right: 0px;
+margin-left:0px;
+margin-right:11px;
+z-index:100;
+border-radius: 15px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+td {
+    padding: 8px; /* Поля вокруг текста */ 
+    border: 4px; /* Граница вокруг ячеек */ 
+   }
+#calc{
+	color: rgb(255, 128, 0);
+	margin-left: 95px;
+	
+}
+.nav-item {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+
+}
+.nav navbar-nav{
+	
+	text-align: center;
+}
+.collapse navbar-collapse{
+	border-left: 12px red;
+}
+#color{
+	color: white;
+}
+.text{
+	float: right;
+}
+.super{
+    text-align: right;
+	
+}
+.puper{
+    text-align: left;
+	
+}
+.two{
+	margin-left:20px;
+}
+
+.inpt{
+	height: 25px;
+	width: 90px;
+	border-radius: 5px;
+}
+
+/*Элемент div результата, в котором выводится значение слайдера*/
+#slider-result {
+font-size:50px;
+height:200px;
+font-family:Arial, Helvetica, sans-serif;
+color:#fff;
+width:250px;
+text-align:center;
+text-shadow:0 1px 1px #000;
+font-weight:700;
+padding:20px 0;
+}
+
+/*Полоска заполнителя слайдера*/
+.ui-widget-header {
+color: red;
+height:81px;
+left:12px;
+top:11px;
+position:absolute;
+}
+
+a {
+outline:none;
+-moz-outline-style:none;
+}
